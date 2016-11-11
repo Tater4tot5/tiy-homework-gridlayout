@@ -39,15 +39,25 @@ float:right;
   font-weight: lighter;
   padding: 10px 120px;
 }
-
+.btn {
+  margin-bottom: 70px;
+  font-size: 16px;
+}
 .one {
   font-weight: lighter;
 
 }
-.two {
+.btn-two {
+
   font-weight: lighter;
+  background-color: #333333;
+  box-shadow: inset 1px 1px lightgrey;
 }
 
+.container-iconandimg {
+  margin: 0px 5%;
+  text-align: center;
+}
 .icon-section {
   text-align: center;
   color: #333333;
@@ -60,7 +70,7 @@ float:right;
 .introheading {
   font-variant: small-caps;
   font-size: 30px;
-  margin-bottom: 25px;
+  margin: 50px 0px 25px;
 }
 .iconheading {
   font-variant: small-caps;
@@ -82,3 +92,38 @@ float:right;
 }
 
 .img-thumbnail {margin: 10px;}
+
+.lastheading {
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 42px;
+  margin: 30px 0px;
+  text-align: right;
+  }
+.final {
+  margin: 40px 95px 0px 0px;
+}
+
+footer {
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+}
+.footer{
+  background-color: #333333;
+  margin-bottom: 20px;
+  padding: 0px 100px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.footer .fa {
+  font-size: 30px;
+  color: lightgrey;
+  padding: 30px 10px;
+}
